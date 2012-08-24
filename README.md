@@ -25,4 +25,4 @@ PIL (Python Imaging Library) http://www.pythonware.com/products/pil/
 
 - `get_average_hex()` return the average color in the image and return as a hexidecimal string
 
-- `get_avaerage_rgb()` return the average color in the image and return as RGB tuple
+- `get_average_rgb()` return the average color in the image and return as RGB tuple
