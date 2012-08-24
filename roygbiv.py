@@ -9,6 +9,7 @@ class Roygbiv(object):
 
 
 	def __average_color(self):
+		""" determine the average RGB color in image """
 		i = Image.open(self.__filename)
 		h = i.histogram()
 
@@ -31,9 +32,11 @@ class Roygbiv(object):
 	    return hexcolor
 
 	def get_average_hex(self):
+		""" return average hex color in image """
 		rgb = self.__average_color()
 		return self.__rgb_to_hex(rgb)
 		
 	def get_average_rgb(self):
+		""" return average RGB color in image """
 		return self.__average_color()
 	
