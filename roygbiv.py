@@ -27,13 +27,13 @@ class Roygbiv(object):
 
 	def __rgb_to_hex(self, rgb):
 	    """ convert an (R, G, B) tuple to #RRGGBB """
-	    hexcolor = '#%02x%02x%02x' % rgb_tuple
+	    hexcolor = '#%02x%02x%02x' % rgb
 	    return hexcolor
 
-	def get_average(self, mode='hex'):
-		if mode == 'hex':
-			rgb = self.__average_color()
-			return self.__rgb_to_hex(rgb)
-		else:
-			return self.__average_color()
-
+	def get_average_hex(self):
+		rgb = self.__average_color()
+		return self.__rgb_to_hex(rgb)
+		
+	def get_average_rgb(self):
+		return self.__average_color()
+	
