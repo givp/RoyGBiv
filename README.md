@@ -4,10 +4,10 @@ This python module is intended to provide a set of image analysis tools. This is
 
 _by Giv Parvaneh_
 
-## Requirement
+## Requirements
 
-PIL (Python Imaging Library)
-http://www.pythonware.com/products/pil/
+Python 2.6+
+PIL (Python Imaging Library) http://www.pythonware.com/products/pil/
 
 ## Usage
 
