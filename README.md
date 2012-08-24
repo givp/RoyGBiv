@@ -20,3 +20,9 @@ PIL (Python Imaging Library) http://www.pythonware.com/products/pil/
 >>> roy.get_average_rgb()
 (70, 132, 137)
 ```
+
+## Available methods
+
+- `get_average_hex()` return the average color in the image and return as a hexidecimal string
+
+- `get_avaerage_rgb()` return the average color in the image and return as RGB tuple
