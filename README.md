@@ -7,6 +7,7 @@ _by Giv Parvaneh_
 ## Requirements
 
 Python 2.6+
+
 PIL (Python Imaging Library) http://www.pythonware.com/products/pil/
 
 ## Usage
