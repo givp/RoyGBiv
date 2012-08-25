@@ -166,7 +166,7 @@ class Roygbiv(object):
 	    hexcolor = '#%02x%02x%02x' % rgb
 	    return hexcolor
 
-	def get_colors(self):
+	def get_palette(self):
 		palette = self.__extract_colors()
 
 		return palette
@@ -178,8 +178,8 @@ class Roygbiv(object):
         )
 		'''
 
-	def get_colors_rgb(self):
-		palette = self.get_colors()
+	def get_palette_rgb(self):
+		palette = self.get_palette()
 
 		out = []
 		for p in palette.colors:
@@ -187,8 +187,8 @@ class Roygbiv(object):
 
 		return out
 
-	def get_colors_hex(self):
-		palette = self.get_colors_rgb()
+	def get_palette_hex(self):
+		palette = self.get_palette_rgb()
 
 		out = []
 		for p in palette:

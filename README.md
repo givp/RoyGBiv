@@ -20,9 +20,9 @@ _by Giv Parvaneh_
 '#468489'
 >>> roy.get_average_rgb()
 (70, 132, 137)
->>> roy.get_colors_rgb()
+>>> roy.get_palette_rgb()
 [(87, 145, 138), (52, 126, 140), (44, 97, 117), (154, 168, 145), (199, 194, 158)]
->>> roy.get_colors_hex()
+>>> roy.get_palette_hex()
 ['#57918a', '#347e8c', '#2c6175', '#9aa891', '#c7c29e']
 ```
 
@@ -30,6 +30,10 @@ _by Giv Parvaneh_
 
 - `get_average_hex()` return the average color in the image and return as a hex string
 - `get_average_rgb()` return the average color in the image and return as RGB tuple
-- `get_colors()` return a list of all prominent colors in the image with prominence weight value
-- `get_colors_rgb()` return a list of all prominent colors in RGB
-- `get_colors_hex()` return a list of all prominent colors in hex
+- `get_palette()` return a list of all prominent colors in the image with prominence weight value
+- `get_palette_rgb()` return a list of all prominent colors in RGB
+- `get_palette_hex()` return a list of all prominent colors in hex
+
+## Credits
+
+A lot of this code is borrowed from the most excellent [colorific] project but modified to work with Python 2.6 + other tweaks
