@@ -36,4 +36,4 @@ _by Giv Parvaneh_
 
 ## Credits
 
-A lot of this code is borrowed from the most excellent [colorific] project but modified to work with Python 2.6 + other tweaks
+A lot of this code is borrowed from the most excellent [[colorific]] project but modified to work with Python 2.6 + other tweaks
