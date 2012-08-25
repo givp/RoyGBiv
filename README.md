@@ -6,9 +6,10 @@ _by Giv Parvaneh_
 
 ## Requirements
 
-Python 2.6+
-
-PIL (Python Imaging Library) http://www.pythonware.com/products/pil/
+- Python 2.6+
+- Python Imaging Library (PIL)
+- NumPy
+- ColorMath
 
 ## Usage
 
@@ -23,6 +24,8 @@ PIL (Python Imaging Library) http://www.pythonware.com/products/pil/
 
 ## Available methods
 
-- `get_average_hex()` return the average color in the image and return as a hexidecimal string
-
+- `get_average_hex()` return the average color in the image and return as a hex string
 - `get_average_rgb()` return the average color in the image and return as RGB tuple
+- `get_colors()` return a list of all prominent colors in the image with prominence weight value
+- `get_colors_rgb()` return a list of all prominent colors in RGB
+- `get_colors_hex()` return a list of all prominent colors in hex
