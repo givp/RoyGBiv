@@ -2,7 +2,7 @@
 
 This python module is intended to provide a set of image analysis tools. This is very much a work in progress...
 
-_by Giv Parvaneh_
+_by Giv Parvaneh_ http://www.givp.org - http://twitter.com/givp
 
 ## Requirements
 
@@ -36,4 +36,4 @@ _by Giv Parvaneh_
 
 ## Credits
 
-A lot of this code is borrowed from the most excellent colorific project but modified to work with Python 2.6 + other tweaks https://github.com/99designs/colorific/
+A lot of this code is borrowed from the most excellent [Colorific](https://github.com/99designs/colorific/ "Colorific") project but modified to work with Python 2.6 + other tweaks
