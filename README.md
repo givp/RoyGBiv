@@ -3,8 +3,7 @@
 This python module is intended to provide a set of image analysis tools. This is very much a work in progress...
 
 _by Giv Parvaneh_ 
-- Blog: http://www.givp.org 
-- Twitter: http://twitter.com/givp
+- Demo: http://roygbiv.givp.org/
 
 ## Requirements
 
