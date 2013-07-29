@@ -12,6 +12,8 @@ _by Giv Parvaneh_
 - NumPy
 - ColorMath
 
+Then ```pip install RoyGBiv```
+
 ## Usage
 
 ```python
