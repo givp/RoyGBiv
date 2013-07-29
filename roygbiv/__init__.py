@@ -1,4 +1,5 @@
 import PIL
+import PIL.JpegImagePlugin
 from PIL import Image
 from PIL import ImageChops
 from collections import namedtuple
@@ -37,7 +38,7 @@ class Roygbiv(object):
         if isinstance(img_or_filename, PIL.JpegImagePlugin.JpegImageFile):
             self.__img = img_or_filename
         else:
-            self.__img = Image.open(filename)
+            self.__img = Image.open(img_or_filename)
 
         # make sure image is RGB
         if self.__img.mode != 'RGB':
