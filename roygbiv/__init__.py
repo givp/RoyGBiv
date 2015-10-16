@@ -5,7 +5,9 @@ from PIL import ImageChops
 from collections import namedtuple
 from Counter import Counter
 from operator import itemgetter, mul, attrgetter
-from colormath.color_objects import RGBColor
+from colormath.color_objects import BaseRGBColor, LabColor
+from colormath.color_conversions import convert_color
+import colormath.color_diff
 import colorsys
 
 Color = namedtuple('Color', ['value', 'prominence'])
@@ -116,7 +118,7 @@ class Roygbiv(object):
 
     def __distance(self, c1, c2):
         "Calculate the visual distance between the two colors."
-        return RGBColor(*c1).delta_e(RGBColor(*c2), method='cmc')
+        return colormath.color_diff.delta_e_cmc(LabColor(*c1), LabColor(*c2))
 
     def __meets_min_saturation(self, c, threshold):
         return colorsys.rgb_to_hsv(*self.__norm_color(c.value))[1] > threshold
